@@ -1,7 +1,7 @@
 const Dev = require('../models/Dev');
 
 module.exports = {
-    async store(){
+    async store(req, res){
         const { user } = req.headers;
         const { devId } = req.params;
 
