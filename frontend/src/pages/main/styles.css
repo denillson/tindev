@@ -26,6 +26,7 @@ body {
 
 .card-img {
     height: 200px;
+    background-color: #FFF;
     
 }
 .card-img img {
@@ -37,9 +38,7 @@ body {
     height: 140px;
     padding: 10px;
     background: #FFF;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    margin-top: 5px;
     text-align: justify;
 }
 
@@ -82,4 +81,50 @@ body {
 }
 .empty h1 {
     font-size: 50px;
+}
+
+.match-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0, 0.8);
+}
+
+.match-container #avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    margin: 30px;
+}
+
+.match-container strong {
+    color: #FFF;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.match-container p {
+    text-align: justify;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.match-container .button-close {
+    width: 90px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    background: none;
+    font-weight: bold;
+    color: #FFF;
 }
